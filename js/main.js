@@ -77,14 +77,3 @@ $btnClose.on('click', function () {
 $('.top-nav').localScroll();
 $('.nav').localScroll();
 $('.midnav').localScroll();
-
-var $bitme = $('.bitme')
-var $banner = $('.me')
-
-$banner.waypoint(function (direction) {
-  if (direction == 'down') {
-    $banner.removeClass('bitme');
-  } else {
-    $banner.addClass('bitme');
-  }
-});
